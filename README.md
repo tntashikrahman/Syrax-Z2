@@ -1,6 +1,6 @@
 # Syrax Z2 - Web Chat Application
 
-![Syrax Z2 Screenshot](https://res.cloudinary.com/dfrvp6cti/image/upload/v1742899955/n5qiqcrawb1lqvmzthpz.png)
+![Syrax Z2 Screenshot](https://res.cloudinary.com/dfrvp6cti/image/upload/v1742900100/rlbiyrh34tnnbsc8o8n0.png)
 
 ### 🚀 Developed by **Ashik Rahman**
 
