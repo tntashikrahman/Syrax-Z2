@@ -33,7 +33,7 @@ export const useAuthStore = create((set, get) => ({
     try {
       const res = await axiosInstance.post("/auth/signup", data);
       set({ authUser: res.data });
-      toast.success("Account created successfully");
+      toast.success("Syrax account created successfully");
       get().connectSocket();
     } catch (error) {
       toast.error(error.response.data.message);
@@ -47,7 +47,7 @@ export const useAuthStore = create((set, get) => ({
     try {
       const res = await axiosInstance.post("/auth/login", data);
       set({ authUser: res.data });
-      toast.success("Logged in successfully");
+      toast.success("Logged in to Syrax");
 
       get().connectSocket();
     } catch (error) {
@@ -61,7 +61,7 @@ export const useAuthStore = create((set, get) => ({
     try {
       await axiosInstance.post("/auth/logout");
       set({ authUser: null });
-      toast.success("Logged out successfully");
+      toast.success("Logged out from Syrax");
       get().disconnectSocket();
     } catch (error) {
       toast.error(error.response.data.message);
